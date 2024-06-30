@@ -14,3 +14,4 @@ def get_requiremet(file_path:str)->List[str]:
     return requirements
 
 print(get_requiremet("./requirements.txt"))
+
