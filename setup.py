@@ -1,5 +1,5 @@
 from setuptools import setup,find_packages
-from typing import Lsit
+from typing import List
 
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read() 
