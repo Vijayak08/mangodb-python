@@ -6,7 +6,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 __version__ = "0.0.5"
 REPO_NAME = "mangodb-python"
-PKG_NAME= "mongodb_automation"
+PKG_NAME= "database_mongo_automation"
 AUTHOR_USER_NAME = "Vijayak08"
 AUTHOR_EMAIL = "vijayarani.kuna@gmail.com"
 
