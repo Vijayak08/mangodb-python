@@ -30,7 +30,7 @@ class mongo_operation:
     def create_collection(self,collection=None):
         if mongo_operation.__collection==None:
             database=self.create_database(collection)
-            self.collection=database[self.collection_name]
+            collection=database[self.collection_name]
             mongo_operation.__collection=collection
         
         if mongo_operation.__collection!=collection:
