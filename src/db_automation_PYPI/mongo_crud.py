@@ -35,7 +35,7 @@ class mongo_operation:
         
         if mongo_operation.__collection!=collection:
             database=self.create_database(collection)
-            self.collection=database[self.collection_name]
+            collection=database[self.collection_name]
             mongo_operation.__collection=collection
             
         return collection
