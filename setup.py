@@ -4,7 +4,7 @@ from typing import List
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read() 
 
-__version__ = "0.0.6"
+__version__ = "0.0.7"
 REPO_NAME = "mangodb-python"
 PKG_NAME= "database_automation_PYPI_Connector"
 AUTHOR_USER_NAME = "Vijayak08"
