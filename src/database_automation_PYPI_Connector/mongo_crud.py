@@ -38,7 +38,7 @@ class mongo_operation:
             self.collection=database[self.collection_name]
             mongo_operation.__collection=collection
             
-        return self.collection
+        return collection
     
     def insert_record(self,record: dict, collection_name: str) -> Any:
         if type(record) == list:
