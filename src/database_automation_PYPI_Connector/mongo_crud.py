@@ -4,6 +4,7 @@ import os
 import pandas as pd
 from pymongo.mongo_client import MongoClient
 import json
+import certifi
 from ensure import ensure_annotations
 
 
@@ -17,7 +18,7 @@ class mongo_operation:
         self.collection_name=collection_name
        
     def create_mongo_client(self,collection=None):
-        client=MongoClient(self.client_url)
+        client=MongoClient(self.client_url,tlsCAFile=certifi.where())
         return client
     
     def create_database(self,collection=None):
